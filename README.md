@@ -73,7 +73,7 @@ Redirect        GET         /s/{code}               -                       307 
 ### 1. Create a Short URL:
 
 ```
-curl -X POST http://localhost:8081/shorten -H 'Content-Type: application/json' -d '{"url": "[https://www.google.com/search?q=go+mongodb](https://www.google.com/search?q=go+mongodb)"}'
+curl -X POST http://localhost:8081/shorten -H 'Content-Type: application/json' -d '{"url": "https://www.google.com/search?q=go+mongodb"}'
 ```
 
 ### 2. Retrieve Statistics: (Use the shortCode returned in step 1, e.g., abc123)
