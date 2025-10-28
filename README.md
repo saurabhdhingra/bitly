@@ -2,10 +2,12 @@
 
 This is a RESTful API service for shortening URLs, built with Go. It uses a Clean Architecture approach to separate concerns and MongoDB for persistent storage.
 
+<img width="892" height="664" alt="Screenshot 2025-10-28 at 10 53 30 PM" src="https://github.com/user-attachments/assets/4130db0e-9d6e-4e10-ae21-98e2b86567cd" />
+
 ## Folder Structure Overview
 
 ```
-**Folder/File**                     **Layer**           **Responsibility**
+Folder/File                     Layer           Responsibility
 
 cmd/main.go                     Entry Point     Application initialization, MongoDB connection, dependency injection, and server start.
 
@@ -85,3 +87,5 @@ curl -X GET http://localhost:8081/shorten/abc123/stats
 ```
 curl -I http://localhost:8081/s/abc123
 ```
+## Acknowledgement
+https://roadmap.sh/projects/url-shortening-service
