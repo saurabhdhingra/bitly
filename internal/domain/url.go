@@ -6,7 +6,7 @@ import (
 
 type URL struct{
 	ID			string		`json:"id" bson:"_id.omitempty"`
-	URL			string		`json:"url"	bson:"url"`
+	URL			string		`json:"url" bson:"url"`
 	ShortCode	string		`json:"shortcode" bson:"shortCode"`
 	CreatedAt	time.Time	`json:"createdAt" bson:"createdAt"`
 	UpdatedAt	time.Time	`json:"updatedAt" bson:"updatedAt"`
