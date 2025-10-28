@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	MongoURI 		= "mongodb+srv://smartsaurabh2002_db_user:vi3EJzZpdvvu4tQU@cluster0.yag1s9r.mongodb.net/?appName=Cluster0"
+	MongoURI 		= ""
 	DBName       = "url_shortener"
 	Port         = ":8081"
 	collectionName = "urls"
